@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Document</title>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="offset-md-3 col-md-6">
+            <form method="post">
+                <h2 class="text-center">Enter Employee Details...</h2>
+                <label>Enter Employee Name:</label>
+                <input type="text" name="name" class="form-control">
+                <label>Enter Employee Email ID:</label>
+                <input type="email" name="email" class="form-control">
+                <label>Enter Employee Company:</label>
+                <input type="text" name="company" class="form-control">
+                <center><br>
+                    <input type="submit" value="Submit" class="btn btn-success">
+                    <input type="reset" value="Clear" class="btn btn-danger">
+                </center>
+            </form>
+        </div>
+    </div>
+</div><br>
+<center><a href="{{url_for('display')}}" class="btn btn-warning">Go To LIST</a></center>
+</body>
+</html>
