@@ -56,7 +56,7 @@ flask mysql
 
 
 
- 339  python3 app.py
+ 339  python3 app.py       ----------------->v.imp
   340  python app.py
   341  pip2 list
   342  python3 app.py
